@@ -1,9 +1,11 @@
 name: 'CI/CD'
+
 on:
   push:
     branches: [master, main]
   pull_request:
     branches: [master, main]
+    
 jobs:
   lint_js:
       name: Lint JavaScript Files
